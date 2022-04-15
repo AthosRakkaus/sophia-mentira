@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0px;
+}
+
+#pass{
+
+    color:black;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    position: relative;
+    font-family: lucida console;
+}
+
+#send{
+    font-family: lucida console;
+    border: none;
+    text-align: center;
+    border-radius: px;
+}
+
+#valu{
+    font-family: lucida console;
+    font-size: 15px;
+}
+
+#valu2{
+    font-family: lucida console;
+    font-size: 9px;
+    color: black;
+}
+
+#valu:after{
+    content:'|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: blink .7s infinite;
+}
+
+@keyframes blink {
+    0%, 100%{
+        opacity: 1;
+    }    
+    50%{
+        opacity: 0;
+    }
+}
+.container{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    font-family: lucida console;
+    text-align: center;
+}
+
+#try1{
+    font-family: lucida console;
+    text-align: center;
+}
+
+
+
